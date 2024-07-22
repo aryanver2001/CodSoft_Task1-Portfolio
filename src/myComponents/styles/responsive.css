@@ -1,0 +1,90 @@
+@media screen and (max-width:992px) {
+    
+    .sidebar{
+        background-color: rgba(23, 27, 54, 0.51);
+        backdrop-filter: blur(10px);
+    }
+
+    .profile-card{
+        padding: 50px;
+        gap: 10px;
+    }
+
+    .section-parent{
+        width: 90%;
+    }
+
+    .about-card{
+        gap: 26px;
+    }
+
+    .project-head-card{
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .project-card{
+        width: 100%;
+    }
+
+    .skills-list{
+        flex-direction: column;
+    }
+
+    .skills-list div{
+        width: 100%;
+    }
+
+    .contact-card{
+        flex-direction: column;
+    }
+
+    .contact-form{
+        width: 100%;
+    }
+
+    .footer{
+        gap: 5px;
+        flex-direction: column;
+    }
+
+}
+
+@media (max-width:800px){
+
+    .profile-card{
+        flex-direction: column-reverse;
+    }
+
+    .about-img{
+        display: none;
+    }
+}
+
+
+@media (max-width:450px) {
+
+    .profile-card{
+        padding: 30px;
+    }
+
+    .profile-parent{
+        padding: 110px 0;
+    }
+    
+}
+
+@media (max-width: 300px) {
+    
+    .about-child{
+        font-size: 10px;
+    }
+
+    .about-skill-list h5{
+        font-size: 10px;
+    }
+
+    .section-divider{
+        width: 100px;
+    }
+}

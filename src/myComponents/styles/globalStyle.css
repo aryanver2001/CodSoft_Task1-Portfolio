@@ -1,0 +1,378 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Protest+Guerrilla&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+    box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+    height: 6px !important;
+    width: 6px !important;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, .8);
+}
+
+.dark-bg {
+    background:rgb(0, 0, 0);
+    background-blend-mode: multiply;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.navbar-brand {
+    letter-spacing: 3px;
+    color: #0ef;
+}
+
+.nav-link {
+    color: #8080809b;
+    transition: all .5s;
+    border-bottom: 3px solid transparent;
+}
+
+.nav-link:hover {
+    border-bottom: 3px solid #0ef;
+    border-radius: 15px;
+}
+
+.nav-link:hover span {
+    color: #0ef;
+}
+
+.profile-parent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 110px 0;
+}
+
+.profile-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    gap: 50px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px 15px #0ef;
+    transition: all .4s ease-in-out;
+}
+
+.profile-child {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.profile-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.name,
+.designation {
+    text-transform: capitalize;
+}
+
+.name {
+    font-size: clamp(15px, 10vw, 60px);
+    background: rgba(232, 232, 232, 0.447);
+    color: transparent;
+    background-clip: text;
+}
+
+.designation {
+    font-size: clamp(10px, 5vw, 30px);
+    color: #0ef;
+    background-clip: text;
+}
+
+.logo {
+    font-size: clamp(7px, 4vw, 24px);
+    text-decoration: none;
+    color: white;
+    margin: 0 10px;
+    padding: 5px;
+    transition: all 0.3s ease-in-out;
+}
+
+.logo:hover {
+    background: white;
+    border-radius: 50%;
+}
+
+.bi-linkedin:hover {
+    color: rgb(0, 174, 255);
+}
+
+.bi-instagram:hover {
+    color: rgb(255, 0, 179);
+}
+
+.bi-github:hover {
+    color: rgb(3, 7, 36);
+}
+
+.bi-facebook:hover {
+    color: rgb(2, 101, 248);
+}
+
+.cv-download-btn {
+    background: black;
+    border: 1px solid white;
+    border-radius: 20px;
+    transition: all .4s ease-in-out;
+}
+
+.cv-download-btn:hover {
+    border: 1px solid #0ef;
+    background: white;
+    transform: scale(1.1);
+}
+
+.btn {
+    font-size: clamp(7px, 3vw, 12px);
+    text-decoration: none;
+    color: #0ef;
+    font-weight: 700;
+    transition: all .4s ease-in-out;
+}
+
+.btn:hover {
+    color: black;
+}
+
+.profile-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.profile-img img {
+    height: clamp(80px, 40vw, 400px);
+    width: clamp(80px, 40vw, 400px);
+    filter: drop-shadow(0px 0px 10px rgba(249, 248, 248, 0.5));
+    object-fit: contain;
+}
+
+.section-seprator {
+    display: flex;
+    margin: 80px auto 40px auto;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.section-head {
+    font-size: clamp(10px, 5vw, 30px);
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Protest Guerrilla', sans-serif;
+
+}
+
+.section-sub-head {
+    font-size: clamp(5px, 3vw, 15px);
+    text-transform: capitalize;
+}
+
+.section-divider {
+    width: 200px;
+    height: 15px;
+}
+
+.section-parent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    width: 80%;
+    margin: auto;
+}
+
+.about-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 20px 15px rgb(107, 107, 107);
+    gap: 90px;
+    padding: 20px;
+}
+
+.about-img img {
+    height: clamp(200px, 35vw, 400px);
+    width: clamp(200px, 35vw, 500px);
+}
+
+.about-child {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+    padding: 20px;
+}
+
+.about-skill-list h5 {
+    font-weight: 700;
+}
+
+.cv-download-btn-about {
+    text-align: center;
+}
+
+.btn-about {
+    font-size: clamp(7px, 3vw, 15px);
+    text-decoration: none;
+    padding: 5px;
+    background: black;
+    color: white;
+    font-weight: 700;
+    border-radius: 20px;
+    transition: all .4s ease-in-out;
+}
+
+.btn-about:hover {
+    transform: scale(1.1);
+    color: #0ef;
+}
+
+.project-head-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.project-card {
+    height: 520px;
+    padding: 20px;
+    width: 400px;
+    overflow: hidden;
+}
+
+.project-card:hover {
+    z-index: 1;
+    box-shadow: 0px 0px 20px 15px rgb(107, 107, 107);
+}
+
+.card-img-top {
+    height: 200px;
+    width: 100%;
+}
+
+.skill-card {
+    width: 100%;
+}
+
+.skills-list {
+    display: flex;
+    gap: 40px;
+}
+
+.skills-list div {
+    width: 50%;
+}
+
+.contact-card {
+    background: #032A33;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+    width: 100%;
+    padding: 50px;
+    box-shadow: 0px 0px 20px 15px #82ACAB;
+
+}
+
+.contact-child {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.contact-child h3 {
+    color: white;
+}
+
+.backtotop-btn {
+    text-decoration: none;
+    background-color: #82ACAB;
+    border-radius: 20px;
+    padding: 5px;
+    color: white;
+    transition: all .4s ease-in-out;
+}
+
+.backtotop-btn:hover {
+    background: #0B4B54;
+    transform: scale(1.1);
+}
+
+
+.contact-form {
+    display: flex;
+    width: 40%;
+    background: #82ACAB;
+    border-radius: 30px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-head {
+    font-size: clamp(20px, 5vw, 30px);
+    font-family: 'Playfair Display', serif;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    color: white;
+}
+
+.form-cont {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+    width: 65%;
+}
+
+.form-control {
+    margin-bottom: 30px;
+}
+
+.contact-btn {
+    background-color: #0B4B54;
+    width: 100%;
+    border-radius: 20px;
+    padding: 5px;
+    color: white;
+}
+
+.footer {
+    background-color: #2A777C;
+    padding: 10px;
+    width: 100%;
+    gap: 5px;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: beige;
+    z-index: 1;
+}
