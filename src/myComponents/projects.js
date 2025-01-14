@@ -197,7 +197,7 @@ const project = [
   },
   {
     name: "TIC-TAC-TOE Game",
-    img: `/project_images/project-calc.png`,
+    img: `/project_images/project-tictactoe.png`,
     tech: "HTML | CSS | Javascript",
     desc: "Created a responsive Tic-Tac-Toe game demonstrating strong proficiency in JavaScript, interactive design, and adaptability for various devices, highlighting skills in web development and user-friendly interfaces.",
     web : "https://tictactoe-aryan.netlify.app/"
