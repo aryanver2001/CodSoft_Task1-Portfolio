@@ -1,4 +1,13 @@
-@media screen and (max-width:992px) {
+@media screen and (max-width:1350px){
+    .card_container{
+        height: 550px;
+    }
+    .desc_body {
+        height: 180px;
+    }
+}
+
+@media (max-width:992px) {
     
     .sidebar{
         background-color: rgba(23, 27, 54, 0.51);
@@ -70,6 +79,14 @@
 
     .profile-parent{
         padding: 110px 0;
+    }
+
+    .card_container{
+        height: 560px;
+    }
+
+    .desc_body{
+        height: 185px;
     }
     
 }
