@@ -78,7 +78,7 @@ const project = [
     img: `/project_images/project-portfolio.jpg`,
     tech: "ReactJs | Bootstrap | HTML | CSS",
     desc: "Designed and implemented a responsive website for my independent jewellery store, highlighting proficiency in React, HTML, and CSS. Delivered a seamless user experience, showcasing expertise in web development and user interface design.",
-    web : "https://jaiprakashornamenthouse.netlify.app/"
+    web : "https://aryanver6.netlify.app/"
   },
   {
     name: "RocketMan Website",
