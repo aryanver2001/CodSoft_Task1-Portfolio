@@ -51,7 +51,7 @@ export default function projects() {
             <h4 className= "project_name">{p.name}</h4>
             <h6 className="project_subtitle">Tech Used: {p.tech}</h6>
             <p className='desc_body'>{p.desc}</p>
-            <a href={p.web} target="blank" className='btn btn-dark text-white'>Explore</a>
+            <a href={p.web} target={p.target} className='btn btn-dark text-white'>Explore</a>
           </div>
          </div>
          
@@ -71,34 +71,39 @@ const project = [
     img: `/project_images/project-shop.png`,
     tech: "ReactJs | Bootstrap | HTML | CSS",
     desc: "Designed and implemented a responsive website for my independent jewellery store, highlighting proficiency in React, HTML, and CSS. Delivered a seamless user experience, showcasing expertise in web development and user interface design.",
-    web : "https://jaiprakashornamenthouse.netlify.app/"
+    web : "https://jaiprakashornamenthouse.netlify.app/",
+    target : "blank"
   },
   {
     name: "Portfolio Website",
     img: `/project_images/project-portfolio.jpg`,
     tech: "ReactJs | Bootstrap | HTML | CSS",
     desc: "Designed and implemented a responsive website for my independent jewellery store, highlighting proficiency in React, HTML, and CSS. Delivered a seamless user experience, showcasing expertise in web development and user interface design.",
-    web : "https://aryanver6.netlify.app/"
+    web : "https://aryanver6.netlify.app/",
+    target : ""
   },
   {
     name: "RocketMan Website",
     img: `/project_images/project-rocket.png`,
     tech: "HTML | CSS",
     desc: "Leveraged extensive knowledge to architect and develop a HTML/CSS website, gaining practical acumen to address realworld challenges, enhancing teamwork and personal growth.",
-    web : "https://rocketman2001.netlify.app/"
+    web : "https://rocketman2001.netlify.app/",
+    target : "blank"
   },
   {
     name: "Basic Calculator",
     img: `/project_images/project-calc.png`,
     tech: "ReactJs | Bootstrap | HTML | CSS",
     desc: "Developed a basic calculator application using React, demonstrating proficiency in state management, user input handling, and implementing interactive features to enhance functionality and user experience.",
-    web : "https://basi-c-alc.netlify.app/"
+    web : "https://basi-c-alc.netlify.app/",
+    target : "blank"
   },
   {
     name: "TIC-TAC-TOE Game",
     img: `/project_images/project-tictactoe.png`,
     tech: "HTML | CSS | Javascript",
     desc: "Created a responsive Tic-Tac-Toe game demonstrating strong proficiency in JavaScript, interactive design, and adaptability for various devices, highlighting skills in web development and user-friendly interfaces.",
-    web : "https://tictactoe-aryan.netlify.app/"
+    web : "https://tictactoe-aryan.netlify.app/",
+    target : "blank"
   }
 ]
