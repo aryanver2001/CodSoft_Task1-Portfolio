@@ -51,7 +51,7 @@ export default function projects() {
             <h4 className= "project_name">{p.name}</h4>
             <h6 className="project_subtitle">Tech Used: {p.tech}</h6>
             <p className='desc_body'>{p.desc}</p>
-            <a href={p.web} className='btn btn-dark text-white'>Explore</a>
+            <a href={p.web} target="blank" className='btn btn-dark text-white'>Explore</a>
           </div>
          </div>
          
